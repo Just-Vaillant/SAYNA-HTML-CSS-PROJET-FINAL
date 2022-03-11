@@ -1,5 +1,14 @@
-.mama{
+*{
+    margin: 0%;
+}
+
+.bg-pink{
     background-color: #d35649;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
 }
 
 .section1{
