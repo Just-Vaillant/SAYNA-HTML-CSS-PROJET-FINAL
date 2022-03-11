@@ -1,0 +1,19 @@
+.mama{
+    background-color: #d35649;
+}
+
+.section1{
+    background-image:url("./Assets/Images/group-1.jpg");
+    background-size:100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:300px;
+}
+
+.section1 h2{
+    text-transform: uppercase;
+}
+
+.section2 div p{
+    font-size:small;
+}
