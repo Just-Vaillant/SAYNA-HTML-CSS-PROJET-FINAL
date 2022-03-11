@@ -6,6 +6,10 @@
     background-color: #d35649;
 }
 
+.bg-primary-gray{
+    background-color: #98a5a5;
+}
+
 .link{
     color: white;
     text-decoration: none;
