@@ -10,8 +10,25 @@ body{
     background-color: #444;
 }
 
+.bg-gray{
+    background-color: rgba(161, 161, 161, 0.178);
+}
+
+.text-gray{
+    color: rgba(161, 161, 161, 0.966); 
+}
+
 .text-gray-footer{
     color: #1f1f1f;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+.text-pink{
+    color: #d35649;
 }
 
 .bg-light-gray{
@@ -79,9 +96,68 @@ form #btn-search{
 .footer-link-item{
     border-top: 3px solid white;
     border-bottom: 3px solid white;
+    font-family: 'jiza2';
+    word-spacing: 15px;
 }
 
 .footer-icon{
     border: white solid 3px;
     border-radius: 50%;
+}
+.shadow{
+    box-shadow:0px 0px 12.5px 0px rgba(0, 0, 0, 0.8)!important;
+    height:500px;
+    margin-left:2%;
+
+}
+
+.input-width{
+    width: 100px;
+    border: none;
+    margin: 5px; 
+}
+
+.inp-date{
+    width: 150px;
+}
+
+.section-filter{
+    height: 50%;
+}
+
+.section-filter form div label{
+    font-weight: bold;
+}
+
+@font-face { font-family: "free-fa-brands"; src: url('./Assets/Fonts/free-fa-brands-400.woff2'); } 
+@font-face { font-family: "free-fa-regular"; src: url('./Assets/Fonts/free-fa-regular-400.woff2'); } 
+@font-face { font-family: "free-fa-solid"; src: url('./Assets/Fonts/free-fa-solid-900.woff2'); } 
+@font-face { font-family: "jiza"; src: url('./Assets/Fonts/jizaRExUiTo99u79D0KExQ.woff2'); } 
+@font-face { font-family: "jiza2"; src: url('./Assets/Fonts/jizfRExUiTo99u79B_mh0O6tLQ.woff2'); } 
+
+article h5{
+    font-family: "jiza2"; 
+    opacity: .8;
+}
+
+.footer-icon{
+    border: white solid 3px;
+    border-radius: 50%;
+}
+.larger-shadow{
+    box-shadow:0px 0px 12.5px 0px rgba(0, 0, 0, 0.8)!important;
+    height:650px;
+    margin-left:2%;
+}
+.r-shadow{
+    box-shadow:0px 0px 13px 0px rgba(0, 0, 0, 0.4)!important;
+    width: 500px;
+    height: 70px;
+}
+.secondshadow{
+    padding:2% 3% 0% 7%;
+}
+#ligne{
+    border: solid #0c0a0a 5px;
+    margin-top: 0px;
 }

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>SAYNA-HTML-CSS-PROJET-FINAL</title>
+</head>
+<body>
+    <!--header-->
+    <header style="width: 100%;">
+        <nav class="container-fluid p-2 bg-danger bg-pink text-white">
+            <div class="row">
+                <div class="col-7 d-flex">
+                    <img src="./Assets/Images/group-2.svg" alt="events" width="10%">
+                    <h4 class="mt-4"><a href="index.html" class="link link-primary">[Events]</a></h4> 
+                </div>
+                <div class="col d-flex mt-4 text-white">
+                    <div class="col">
+                        <img src="./Assets/Icones/search_icon.png" alt="search" width="20%">
+                        <a href="search.html" class="link link-primary"> Search</a>
+                    </div>
+
+                    <div class="col">
+                        <img src="./Assets/Icones/about_icon.png" alt="about" width="20%">
+                        <a href="about.html" class="link link-primary">About</a>
+                    </div>
+
+                    <div class="col">
+                        <img src="./Assets/Icones/blog_icon.png" alt="blog" width="20%">
+                        <a href="#Blog" class="link link-primary">Blog</a>
+                    </div>
+
+                    <div class="col">
+                        <img src="./Assets/Icones/more_icon.png" alt="more" width="20%">
+                        <a href="#More" class="link link-primary">More</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--header-->
+    <section class="bg-gray section-filter mt-5">
+        <h3 class="text-center p-4 text-gray">Filter by location, host, subject, date, datetime:</h3>
+        <form action="" class="d-flex justify-content-center p-3">
+            <div class="">
+                <label for="" class="d-block">Location</label>
+                <input type="text" class="input-width p-1">
+            </div>
+            <div class="">
+                <label for="" class="d-block">Host</label>
+                <input type="text" class="input-width p-1">
+            </div>
+            <div class="">
+                <label for="" class="d-block">Subject</label>
+                <input type="text" class="input-width p-1">
+            </div>
+            <div class="">
+                <label for="" class="d-block">Initial Date</label>
+                <input type="date" class="input-width inp-date p-1" value="2020-06-18">
+            </div>
+            <div class="">
+                <label for="" class="d-block">Final Date</label>
+                <input type="date" class="input-width inp-date p-1" value="2020-06-18">
+            </div>
+            <div class="">
+                <label for="" class="d-block">DayTime</label>
+                <select name="" id="" class="input-width p-1">
+                    <option value="">Choose...</option>
+                    <option value=""></option>
+                </select>
+            </div>
+            <button class="btn btn-primary mt-4 mb-3 ">Search</button> 
+            <button class="btn btn-warning mt-4 mb-3 text-light" style="margin-left: 10px;"> <i class="fas fa-edit"></i> Clear filter</button>
+        </form>    
+    </section>
+    <section>
+        <h4 class="text-center text-gray mt-5 mb-3">Search Result Found 7 [Events] Nearby</h4>
+        <article class="d-flex justify-content-around m-5">
+            <div class="bg-pink position-relative" style="width: 300px;">
+                <h5 class="text-white m-3 position-absolute">go to [gathering] examples</h5>
+                <img src="./Assets/Images/group-2.svg" alt="" width="300px" class="m-3">
+            </div>
+            <div class="bg-pink position-relative" style="width: 300px;">
+                <h5 class="text-white m-3 position-absolute">go to [gathering] examples</h5>
+                <img src="./Assets/Images/group-2.svg" alt="" width="300px" class="m-3">
+            </div>
+            <div class="bg-pink position-relative" style="width: 300px;">
+                <h5 class="text-white m-3 position-absolute">go to [gathering] examples</h5>
+                <img src="./Assets/Images/group-2.svg" alt="" width="300px" class="m-3">
+            </div>
+        </article>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark">
+        <div class="footer-link d-flex text-white justify-content-center" >
+            <article class="mt-4 footer-link-item p-2">
+                <span>HOME</span>
+                <span>SEARCH</span>
+                <span>ABOUT US</span>
+                <span>ADVERTISE</span>
+            </article>
+            <img src="./Assets/Icones/mapsnavbar_icon.png" alt="" width="60px" height="60px" class="mt-3 pt-2 footer-icon">
+            <article class="mt-4 footer-link-item p-2">
+                <span>FACEBOOK</span>
+                <span>TWITTER</span>
+                <span>INSTAGRAM</span>
+                <span>BLOG</span>
+            </article>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p-5 text-center">
+                <b class="text-white">Subscribe</b>
+                <form class="d-flex mt-3">
+                    <input class="form-control" id="insert-email" type="search" placeholder="Insert your email here" aria-label="Search">
+                    <button class="btn btn-default bg-primary-gray" id="btn-search" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="col-md-4 p-5 text-center text-white">
+                <b class="">Contact</b>
+                <p>
+                    Have a question or suggestion? <br>
+                    <a href="#" style="text-decoration: none;"><code class="text-danger">contact@events.com</code></a>
+                </p>
+            </div>
+            <div class="col-md-4 p-5 text-center text-white">
+                <b class="">About</b>
+                <p>
+                    [Events] is an online platform that works to improve and increase social life conections, when this nightmare that 
+                    we are currently living in is over <a href="#" style="text-decoration: none;"><code class="text-danger">learn more</code></a>
+                </p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between bg-gray-footer-btn text-gray-footer mb-3">
+            <div class="social-links m-3 text-nowrap">
+                <img src="./Assets/Icones/facebook_icon.svg" alt="facebook_icon" width="15px" style="margin-right: 10%;">
+                <img src="./Assets/Icones/twitter_icon.svg" alt="twitter_icon" width="15px" style="margin-right: 10%;">
+                <img src="./Assets/Icones/instagram_icon.svg" alt="instagram_icon" width="15px" style="margin-right: 10%;">
+                <img src="./Assets/Icones/tumblr_icon.svg" alt="" width="15px" style="margin-right: 10%;">
+                <img src="./Assets/Icones/linkedin_icon.svg" alt="" width="15px">
+            </div>
+            <div class="copy-right mt-3">
+                <p>
+                    2022 [Events], Inc All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
