@@ -96,7 +96,7 @@ form #btn-search{
 .footer-link-item{
     border-top: 3px solid white;
     border-bottom: 3px solid white;
-    font-family: 'jiza2';
+    font-family: 'font-ji';
     word-spacing: 15px;
 }
 
@@ -133,10 +133,10 @@ form #btn-search{
 @font-face { font-family: "free-fa-regular"; src: url('./Assets/Fonts/free-fa-regular-400.woff2'); } 
 @font-face { font-family: "free-fa-solid"; src: url('./Assets/Fonts/free-fa-solid-900.woff2'); } 
 @font-face { font-family: "jiza"; src: url('./Assets/Fonts/jizaRExUiTo99u79D0KExQ.woff2'); } 
-@font-face { font-family: "jiza2"; src: url('./Assets/Fonts/jizfRExUiTo99u79B_mh0O6tLQ.woff2'); } 
+@font-face { font-family: "font-ji"; src: url('./Assets/Fonts/jizfRExUiTo99u79B_mh0O6tLQ.woff2'); } 
 
 article h5{
-    font-family: "jiza2"; 
+    font-family: "font-ji"; 
     opacity: .8;
 }
 
